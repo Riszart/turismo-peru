@@ -1,0 +1,94 @@
+.center-100{
+  width: 100%;
+}
+.content-banner{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../assets/Machu_Picchu\,_Peru.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.content-banner-h1{
+  max-width: 1200px;
+  text-align: center;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 92px;
+  color: rgb(255, 255, 255);
+}
+.content-banner-h1 span{
+  color: rgb(236, 193, 1);
+}
+.content-banner-p-main{
+  width: 40%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(233, 233, 233);
+}
+
+.content-middle{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #f9fafb;
+}
+.content-middle-{
+  border-top: solid rgb(177, 5, 5) 3px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.content-middle-h2{
+  font-size: 32px;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+.content-middle-p{
+  font-size: 14px;
+  color: gray;
+}
+.content-middle-articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 40px 0;
+}
+.content-botton{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.content-botton-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.content-botton-info-left{
+  width: 300px;
+  padding-right: 30px;
+}
+.content-botton-strong{
+  font-size: 16px;
+  color: #1D7DED;
+  letter-spacing: 2px;
+}
+.content-botton-h4{
+  font-size: 36px;
+  margin: 15px 0;
+}
+.content-botton-p{
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #4B5563;
+}

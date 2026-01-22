@@ -1,0 +1,43 @@
+.btn{
+  background-color: #1D7DED;
+  color: white;
+  padding: 15px 30px ;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  box-shadow: #1D7DED 2px 2px 8px;
+}
+.btn:hover{
+  background-color: rgba(0, 112, 240, 0.562);
+  outline: none;
+  box-shadow: none;
+}
+.btn-red{
+  background-color: rgb(177, 5, 5);
+  padding: 20px 36px;
+  font-size: 20px;
+  box-shadow: rgb(177, 5, 5) 2px 2px 8px;
+}
+.btn-outline{
+  padding: 20px 36px;
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  font-size: 20px;
+  box-shadow: none;
+}
+.btn-blue{
+  padding: 16px 32px;
+}
+
+.content-banner-div-btns{
+  display: flex;
+  gap: 30px;
+}
+
+.form{
+  width: 100%;
+}

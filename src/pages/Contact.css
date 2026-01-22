@@ -1,0 +1,146 @@
+.width-1200{
+  width: 1200px;
+}
+.container-main{
+  background-color: #F8FAFC;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-contact-top{
+  margin-top: 160px;
+}
+.main-contact-top-h2{
+  font-size: 54px;
+}
+.main-contact-top-h2 span{
+  color: #1D84E9;
+  font-style: italic;
+}
+.main-contact-top-p{
+  width: 60%;
+  font-size: 20px;
+  color: #3d6185;
+  margin-bottom: 60px;
+}
+.main-contact-bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
+  gap: 80px;
+  margin-bottom: 180px;
+}
+.form-contact{
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 14px;
+  border: #D1D5DB solid 1px;
+}
+.form-contact-content-font{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+}
+.form-contact-content-seccion{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.form-contact-input{
+  border-radius: 12px;
+  width: 100%;
+  height: 50px;
+  background-color: #6a75a515;
+  border: solid #D1D5DB 1px;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+}
+.form-contact-input:hover{
+  border: solid 1px #1D84E9;
+}
+.form-contact-input:focus{
+  border: solid 1px #1D84E9;
+}
+
+.form-contact-label{
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  padding-bottom: 8px;
+  padding-top: 18px;
+}
+.form-contact-text{
+  border-radius: 12px;
+  width: 100%;
+  height: 120px;
+  background-color: #6a75a515;
+  border: solid #D1D5DB 1px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.form-contact-text{
+  width: 100%;
+}
+.content-card-section{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.content-card-section article{
+  text-align: center;
+  background-color: #E3F2FD;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: solid #1D84E9 1px;
+}
+.card-span{
+  color: #1D84E9;
+  font-size: 12px;
+}
+.card-image{
+  width: 30px;
+  height: 30px;
+  filter: invert(31%) sepia(97%) saturate(1814%) hue-rotate(203deg) brightness(96%) contrast(96%);
+  background-color: transparent;
+}
+.card-h3{
+  font-size: 16px;
+  margin: 6px 0;
+}
+.content-right-image{
+  width: 100%;
+  height: 80%;
+  background-image: url('../assets/Machu_Picchu\,_Peru.jpg');
+  background-size: cover;
+  background-position: center;
+  border: solid 5px white;
+  box-shadow: 0px 0px 16px 1px #0000005d;
+  border-radius: 20px;
+}
+.content-right-text{
+  margin-top: 30px;
+  background-color: rgb(12, 26, 32);
+  border-radius: 15px;
+  color: white;
+  padding: 30px;
+}
+.content-right-text h5{
+  font-size: 28px;
+  padding-bottom: 8px;
+}
+.content-right-text p{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.507);
+  padding-bottom: 8px;
+}
+.content-right-colapse p{
+  margin-top: 12px;
+  font-size: 14px;
+}

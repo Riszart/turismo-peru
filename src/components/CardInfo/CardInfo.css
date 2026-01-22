@@ -1,0 +1,40 @@
+.card-info-content{
+  background-color: #F9FAFB;
+  display: inline-block;
+  width: 220px;
+  height: 200px;
+  border: solid 1px #E5E7EB;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.card-info-content-icon{
+  width: 40px;
+  height: 40px;
+  background-color: #4390f533;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 0 !important;
+}
+.card-info-icon{
+  width: 40px;
+  height: 40px;
+  filter: invert(31%) sepia(97%) saturate(1814%) hue-rotate(203deg) brightness(96%) contrast(96%);
+  background-color: transparent;
+}
+.card-info-title{
+  font-size: 20px;
+  color: #4B5563;
+  padding: 15px 0;
+}
+.card-info-description{
+  font-size: 14px;
+  color: rgb(8, 71, 129);
+}
+.about {
+  background-color: white;
+}
