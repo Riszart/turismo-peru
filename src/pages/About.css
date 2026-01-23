@@ -15,7 +15,7 @@
 }
 .about-content-right-img{
   position: relative;
-  height: 100%;
+  width: 100%;
   height: 80vh;
   background-image: url('../assets/Machu_Picchu\,_Peru.jpg');
   background-position: center;
@@ -118,10 +118,11 @@
   flex-direction: column;
   align-items: center;
   background-color: #F8F9FA;
+  box-sizing: border-box;
 }
 .content-about-bottom span{
   display: block;
-  width: 800px;
+  width: 80%;
 }
 .content-about-bottom-h3{
   font-size: 54px;
@@ -133,9 +134,66 @@
   justify-content: center;
   margin-top: 50px;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .content-about-left-img-down{
   position: relative;
   bottom: -40px;
+}
+
+@media (max-width:1200px){
+  .content-about-left-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-content-right{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width:1000px){
+  .content-about-top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .content-about-bottom{
+    padding: 10%;
+  }
+  .about-content-right{
+    height: auto;
+    width: 100%;
+  }
+  .content-about-right{
+    margin-top: 50px;
+  }
+  .content-about-middle{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10%;
+  }
+  .about-content-right-img{
+    height: 90vw;
+    width: 80vw;
+  }
+  .about-content-right img{
+    left: 0;
+  }
+}
+@media (max-width:700px){
+  .content-about-card-img{
+    height: 200px;
+  }
+}
+@media (max-width:450px){
+  .content-about-card-img{
+    height: 150px;
+  }
 }

@@ -1,15 +1,20 @@
 import { Home } from './pages/Home'
-import { Navbar } from "./components/Navbar/Navbar"
+import { Navbar,NavbarMobile } from "./components/Navbar/Navbar"
 import { Footer } from './components/Footer/Footer'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
+import { useState } from 'react'
+
+
 function App() {
+  const [isMobbile] = useState(window.innerWidth > 768)
+
   return (
     <>
       <Router>
-        <Navbar />
+        {isMobbile ? <Navbar/> : <NavbarMobile/>}
         <main>
         <Routes>
           <Route path='/' element={<Home/>}/>
